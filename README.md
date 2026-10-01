@@ -1,1 +1,2 @@
-# Lab-2-arreglos-y-excepciones
+Jorge Emilio Cano Itzep
+carne: 261523
