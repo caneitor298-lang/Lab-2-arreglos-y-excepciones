@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36">
+  <diagram name="Página-1" id="lXaP_epKuSbnMU_0jsmk">
+    <mxGraphModel dx="3668" dy="1379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=28;fontStyle=1;fontColor=#000000;" value="Laboratorio 2   Agencia de detectives" vertex="1">
+          <mxGeometry height="44" width="1780" x="265" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-2" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="308" width="790" x="265" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-3" parent="YZMxeJuApA2DxTjuRhX7-2" style="rounded=0;html=1;fillColor=#DCE6F1;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;" value="Ubicacion" vertex="1">
+          <mxGeometry height="44" width="790" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-4" parent="YZMxeJuApA2DxTjuRhX7-2" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;- codigo: String&lt;br&gt;- nombre: String&lt;br&gt;- direccion: String&lt;br&gt;- nivelRiesgo: int&lt;br&gt;- estado: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="790" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-5" parent="YZMxeJuApA2DxTjuRhX7-2" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;+ Ubicacion(codigo: String, nombre: String, direccion: String, nivelRiesgo: int, estado: String)&lt;br&gt;+ getNivelRiesgo(): int&lt;br&gt;+ actualizar(nivelRiesgo: int, estado: String): void&lt;br&gt;+ getInformacion(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="790" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-6" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="404" width="850" x="1175" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-7" parent="YZMxeJuApA2DxTjuRhX7-6" style="rounded=0;html=1;fillColor=#DCE6F1;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;" value="Pista" vertex="1">
+          <mxGeometry height="44" width="850" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-8" parent="YZMxeJuApA2DxTjuRhX7-6" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;- codigo: String&lt;br&gt;- descripcion: String&lt;br&gt;- tipoEvidencia: String&lt;br&gt;- nivelImportancia: int&lt;br&gt;- nivelConfiabilidad: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="850" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-9" parent="YZMxeJuApA2DxTjuRhX7-6" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;+ Pista(codigo: String, descripcion: String, tipoEvidencia: String, nivelImportancia: int,&lt;br&gt;    nivelConfiabilidad: int)&lt;br&gt;+ getCodigo(): String&lt;br&gt;+ getNivelImportancia(): int&lt;br&gt;+ getNivelConfiabilidad(): int&lt;br&gt;+ actualizar(descripcion: String, tipoEvidencia: String, nivelImportancia: int,&lt;br&gt;    nivelConfiabilidad: int): void&lt;br&gt;+ getInformacion(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="216" width="850" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-10" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="524" width="1150" x="525" y="628" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-11" parent="YZMxeJuApA2DxTjuRhX7-10" style="rounded=0;html=1;fillColor=#DCE6F1;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;" value="Caso" vertex="1">
+          <mxGeometry height="44" width="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-12" parent="YZMxeJuApA2DxTjuRhX7-10" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;- nombre: String&lt;br&gt;- codigo: String&lt;br&gt;- detectiveResponsable: String&lt;br&gt;- ubicaciones: Ubicacion[]&lt;br&gt;- pistas: ArrayList&amp;lt;Pista&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="1150" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-13" parent="YZMxeJuApA2DxTjuRhX7-10" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;+ Caso(nombre: String, codigo: String, detectiveResponsable: String)&lt;br&gt;- validarPosicion(posicion: int): void&lt;br&gt;+ registrarUbicacion(posicion: int, ubicacion: Ubicacion): void&lt;br&gt;+ consultarUbicaciones(): String&lt;br&gt;+ obtenerUbicacion(posicion: int): Ubicacion&lt;br&gt;+ modificarUbicacion(posicion: int, nivelRiesgo: int, estado: String): void&lt;br&gt;+ descartarUbicacion(posicion: int): void&lt;br&gt;+ registrarPista(pista: Pista): void&lt;br&gt;+ consultarPistas(): String&lt;br&gt;+ buscarPista(codigo: String): Pista&lt;br&gt;+ modificarPista(codigo: String, descripcion: String, tipoEvidencia: String, nivelImportancia: int, nivelConfiabilidad: int): void&lt;br&gt;+ eliminarPista(codigo: String): void&lt;br&gt;+ generarReporte(): String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="336" width="1150" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-14" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="260" width="750" x="725" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-15" parent="YZMxeJuApA2DxTjuRhX7-14" style="rounded=0;html=1;fillColor=#DCE6F1;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=21;fontStyle=1;align=center;" value="Main" vertex="1">
+          <mxGeometry height="44" width="750" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-16" parent="YZMxeJuApA2DxTjuRhX7-14" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;&lt;u&gt;- scanner: Scanner&lt;/u&gt;&lt;br&gt;&lt;u&gt;- casoActual: Caso&lt;/u&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="750" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-17" parent="YZMxeJuApA2DxTjuRhX7-14" style="rounded=0;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontFamily=DejaVu Sans;fontSize=16;align=left;verticalAlign=top;spacingLeft=18;spacingTop=12;whiteSpace=wrap;" value="&lt;div style=&quot;line-height:24px&quot;&gt;&lt;u&gt;+ main(args: String[]): void&lt;/u&gt;&lt;br&gt;&lt;u&gt;- mostrarMenu(): void&lt;/u&gt;&lt;br&gt;&lt;u&gt;- crearCaso(): Caso&lt;/u&gt;&lt;br&gt;&lt;u&gt;- leerTexto(mensaje: String): String&lt;/u&gt;&lt;br&gt;&lt;u&gt;- leerEntero(mensaje: String): int&lt;/u&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="750" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-18" edge="1" parent="1" source="YZMxeJuApA2DxTjuRhX7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;strokeWidth=1.5;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YZMxeJuApA2DxTjuRhX7-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-19" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="casoActual" vertex="1">
+          <mxGeometry height="26" width="102.90625" x="1115" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-20" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="0..1" vertex="1">
+          <mxGeometry height="26" width="70" x="1115" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-21" edge="1" parent="1" source="YZMxeJuApA2DxTjuRhX7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;strokeWidth=1.5;dashed=1;endArrow=open;endFill=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.35714285714285715;entryDx=0;entryDy=0;" target="YZMxeJuApA2DxTjuRhX7-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="373" />
+              <mxPoint x="220" y="1458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-22" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="«create»" vertex="1">
+          <mxGeometry height="26" width="86.40625" x="305" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-23" edge="1" parent="1" source="YZMxeJuApA2DxTjuRhX7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;strokeWidth=1.5;dashed=1;endArrow=open;endFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.2722772277227723;entryDx=0;entryDy=0;" target="YZMxeJuApA2DxTjuRhX7-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2080" y="373" />
+              <mxPoint x="2080" y="1458" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-24" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="«create»" vertex="1">
+          <mxGeometry height="26" width="86.40625" x="1895" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-25" edge="1" parent="1" source="YZMxeJuApA2DxTjuRhX7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;strokeWidth=1.5;startArrow=diamond;startFill=1;endArrow=none;exitX=0.1391304347826087;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YZMxeJuApA2DxTjuRhX7-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="685" y="1238" />
+              <mxPoint x="660" y="1238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-26" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="1" vertex="1">
+          <mxGeometry height="26" width="70" x="703" y="1162" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-27" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="ubicaciones" vertex="1">
+          <mxGeometry height="26" width="110.734375" x="505" y="1301" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-28" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="0..5" vertex="1">
+          <mxGeometry height="26" width="70" x="675" y="1312" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-29" edge="1" parent="1" source="YZMxeJuApA2DxTjuRhX7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#333333;strokeWidth=1.5;startArrow=diamond;startFill=1;endArrow=none;exitX=0.8608695652173913;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YZMxeJuApA2DxTjuRhX7-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1515" y="1238" />
+              <mxPoint x="1600" y="1238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-30" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="1" vertex="1">
+          <mxGeometry height="26" width="70" x="1533" y="1162" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-31" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="pistas" vertex="1">
+          <mxGeometry height="26" width="70" x="1625" y="1301" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMxeJuApA2DxTjuRhX7-32" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=#FFFFFF;spacing=2;" value="0..*" vertex="1">
+          <mxGeometry height="26" width="70" x="1545" y="1312" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
